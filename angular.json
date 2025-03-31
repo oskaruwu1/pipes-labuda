@@ -4,6 +4,9 @@
   "newProjectRoot": "projects",
   "projects": {
     "pipes-labuda": {
+      "i18n": {
+        "sourceLocale": "pl"
+      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -102,5 +105,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

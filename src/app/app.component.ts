@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Items } from './constants/items.constant';
 
 @Component({
   selector: 'app-root',
@@ -8,4 +9,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pipes-labuda';
+  items = Items;
+  inwokacja: string ='Litwo, Ojczyzno moja! ty jesteś jak zdrowie; Ile cię trzeba cenić, ten tylko się dowie, Kto cię stracił. Dziś piękność twą w całej ozdobie Widzę i opisuję, bo tęsknię po tobie.';
 }
