@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NumberOfSentencesPipe } from './pipes/number-of-sentences.pipe';
 import { CapitalWordsPipe } from './pipes/capital-words.pipe';
+import { LimitToPipe } from './pipes/limit-to.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     NumberOfSentencesPipe,
-    CapitalWordsPipe
+    CapitalWordsPipe,
+    LimitToPipe
   ],
   imports: [
     BrowserModule,

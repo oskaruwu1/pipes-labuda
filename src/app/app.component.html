@@ -32,3 +32,13 @@
 <p>{{ inwokacja }}</p>
 <p>{{ inwokacja | capitalWords }}</p>
 <p>{{ inwokacja | capitalWords | uppercase}}</p>
+
+<p>Zadanie 6 - potok <code>limitTo</code> </p>
+<h4> <code>limitTo</code> dla ciągu znaków </h4>
+<p> {{ inwokacja }} </p>
+<p> {{ inwokacja | limitTo:19 }} </p>
+<p> {{ inwokacja | limitTo:22:7 }} </p>
+<h4> <code>limitTo</code> dla tablic </h4>
+<p> {{ liczbyPierwsze }} </p>
+<p> {{ liczbyPierwsze | limitTo:5 }} </p>
+<p> {{ liczbyPierwsze | limitTo:7:5 }} </p>
