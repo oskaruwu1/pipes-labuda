@@ -9,7 +9,7 @@ export class CapitalWordsPipe implements PipeTransform {
   result = new Array();
 
   transform(value: string): any {
-    this.words = value.split(" ")
+    this.words = value.replace(/\n/g, " ").replace(";", " ").split(" ")
     this.words.forEach(element => {
       (element.charAt(0) == element.charAt(0).toUpperCase()) ? this.result.push(element) : null;
     });
