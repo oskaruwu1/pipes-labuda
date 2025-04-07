@@ -13,7 +13,6 @@ export class CapitalWordsPipe implements PipeTransform {
     this.words.forEach(element => {
       (element.charAt(0) == element.charAt(0).toUpperCase()) ? this.result.push(element) : null;
     });
-    console.log(this.result)
     return this.result.join(" ");
   }
 
